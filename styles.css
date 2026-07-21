@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.topright {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.topright a {
+    color: red;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    color: blue;
+    font-size: 60px;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    padding: 8px 12px;
+}
+
+/* advanced search page only */
+.advanced-form {
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.advanced-form input[type=submit] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
